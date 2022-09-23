@@ -1,4 +1,4 @@
-from fairseq import TransformerModel
+from fairseq.models.transformer import TransformerModel
 pcm2en_large_model_path="/home/mohammed_yahia3/models/"
 pcm2en_small_model_path='/home/CE/musaeed/kd-distiller/checkpoints/pcm_en_1_layer_512_embedddings_512_ffnn/'
 pcm2en_small_model_preprocess='/home/CE/musaeed/auto-annotator/kd-distiller/JW300_with_bible_joined_embeddings/FAKE_pcm_en.tokenized.pcm-en'
